@@ -1,0 +1,405 @@
+
+
+/*CSS file for the Analog Catalog website*/
+
+body {
+	background-color: black; 
+	color: black;
+	font: normal 15px "Courier New", Arial, Helvetica, Geneva, sans-serif; /*"Helvetica Neue"*/
+}
+
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+    position: relative;
+    right: 10px;
+	font-family: 'Righteous', serif;
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-weight: 300;
+	color: black;
+	font-size: 40px;
+  font-weight:bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 24px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #c51010;
+}
+
+a1{
+    color: white
+}
+
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 955px;
+}
+header {
+	height: 100px;
+}
+
+header h1 {
+	float: left;
+	margin-top: 32px;
+
+}
+
+
+ header form {
+    position: relative; 
+    top: 60px;
+	margin: 20px;
+    margin-left: 300px;
+    margin-right: 400px;
+  color: white;
+}
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+header nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	margin-right: 20px;
+}
+
+#storage-image {
+	height: 580px;
+	padding-top: 2px;
+	background: #e8eced url('../img/centered.jpg') repeat-x center;
+}
+
+#storage-image h2 {
+	margin: 180px 0 40px 0;
+}
+
+.button-1 {
+	display: block;
+	text-align: center;
+	background: black;
+	border-radius: 3px;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+}
+
+.button-1:hover {
+	background-color: #c51010;
+	color: #fff;
+}
+
+
+#primary-content {
+	background-color: #f8fafa;
+	padding: 60px 0;
+	text-align: center;
+}
+
+#primary-content h3 {
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 400px;
+	border-bottom: 1px solid #02b8dd;
+	padding: 0 0 20px 0;
+}
+
+#primary-content a img {
+	margin: 20px 0;
+}
+#secondary-content {
+	padding: 60px 0;
+	text-align: center;
+}
+
+#secondary-content article {
+	width: 460px;
+	height: 270px;
+	float: left;
+	background-color: #f5f5f5;
+    background-image: repeat-x;
+}
+
+#secondary-content article:first-child {
+	margin-right: 20px;
+    
+}
+
+#secondary-content article .overlay {
+	background: rgba(255, 255, 255, .95);
+	height: 230px;
+	width: 190px;
+	padding: 20px;
+}
+
+article h4 {
+	border-bottom: 1px solid white;
+	padding-bottom: 20px;
+}
+
+.more-link {
+	border: 1px solid;
+	color: black;
+	padding: 6px 20px;
+	border-radius: 3px;
+}
+
+.more-link:hover {
+	background-color: #c51010; ;
+	color: black;
+
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+    
+}
+
+#form-div {
+    background-color: whitesmoke;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+}
+
+.txtinput {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+  
+}
+
+.txtinput:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #c51010;
+	color: #c51010;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+
+.focused{
+	color:#c51010;
+	border:#c51010 solid 3px;
+}
+
+/*----Icons for the signup form------*/
+#name{
+	background-image: url(/img/username-icon.jpeg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#email{
+	background-image: url(/img/email-icon.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#mname{
+	background-image: url(/img/member-icon.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#passw{
+	background-image: url(/img/passw.jpeg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#rpassw{
+	background-image: url(/img/passw.jpeg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+/*--------------Add vinyl icons------------------*/
+#title {
+    background-image: url(/img/title.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#artist {
+    background-image: url(/img/artist.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#publish_date {
+    background-image: url(/img/pdate.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#edition_num {
+    background-image: url(/img/hash.jpeg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#price {background-image: url(/img/money.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#seller {background-image: url(/img/seller.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#weight {
+    background-image: url(/img/weight.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#code {
+    background-image: url(/img/upc.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#signup-button{
+	font-family: "Courier New", Arial, Helvetica, Geneva, sans-serif;
+    display: block;
+	float:left;
+	width: 100%;
+	border-radius: 3px;
+	cursor:pointer;
+	background-color: gainsboro;
+	color:black;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+    margin-top:-4px;
+    font-weight:700;
+}
+
+#signup-button:hover{
+	background-color:#c51010;
+	color:white;
+}
+	
+.submit:hover {
+	color: #c51010;
+}
+#add-button{
+	font-family: "Courier New", Arial, Helvetica, Geneva, sans-serif;
+    display: block;
+	float:right;
+    line-height: normal;   
+	width: 50%;
+	border-radius: 3px;
+	cursor:pointer;
+	background-color: gainsboro;
+	color:black;
+	font-size:20px;
+	padding-top:22px;
+	padding-bottom:22px;
+  margin-top:-4px;
+  font-weight:700;
+}
+#add-button:hover{
+	background-color:#c51010;
+	color:white;
+}
+#login-button{
+	font-family: "Courier New", Arial, Helvetica, Geneva, sans-serif;
+    display: block;
+	float:right;
+    line-height: normal;   
+	width: 50%;
+	border-radius: 3px;
+	cursor:pointer;
+	background-color: gainsboro;
+	color:black;
+	font-size:20px;
+	padding-top:22px;
+	padding-bottom:22px;
+  margin-top:-4px;
+  font-weight:700;
+}
+#login-button:hover{
+	background-color:#c51010;
+	color:white;
+}
+
+		
